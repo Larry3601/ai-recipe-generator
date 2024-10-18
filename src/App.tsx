@@ -50,11 +50,11 @@ function App() {
         <h1 className="main-header">
                  Autosoft 
           <br /><h1/>
-          <span className="highlight">Recipe AI By Autosoft</span>
+          <span className="highlight"></span>
         </h1>
         <p className="description">
-          Simply type a few ingredients using the format ingredient1,
-          ingredient2, etc., and Autosoft Recipe AI will generate an all-new recipe on
+          Simply type a few ingredients using the format ,
+          , etc., and Autosoft AI will generate an all-new info on
           demand...
         </p>
       </div>
@@ -65,7 +65,7 @@ function App() {
             className="wide-input"
             id="ingredients"
             name="ingredients"
-            placeholder="Ingredient1, Ingredient2, Ingredient3,...etc"
+            placeholder="message,...etc"
           />
           <button type="submit" className="search-button">
             Generate
